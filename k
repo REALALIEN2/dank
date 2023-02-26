@@ -4,7 +4,7 @@ import discord
 import requests
 import asyncio
 
-client = discord.Client()
+client = discord.Client(915064287943340105)
 
 @client.event
 async def on_ready():
@@ -33,4 +33,4 @@ async def on_message(message):
         else:
             await message.channel.send('There was an error getting your cooldowns.')
 
-client.run('your_bot_token')
+client.run('OTE1MDY0Mjg3OTQzMzQwMTA1.G4ZKET.x9oGf8b0HGFYnY3pM0C3zySv0OwskANOxt89Ho')
